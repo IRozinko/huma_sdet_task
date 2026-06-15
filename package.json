@@ -1,0 +1,21 @@
+{
+  "name": "huma-sdet-task",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "WebdriverIO test assignment for a static Tic-Tac-Toe app",
+  "scripts": {
+    "test": "npm run test:headless",
+    "test:headless": "HEADLESS=true wdio run wdio.conf.js",
+    "test:headed": "HEADLESS=false wdio run wdio.conf.js",
+    "test:smoke": "HEADLESS=true wdio run wdio.conf.js --spec test/specs/smoke.spec.js"
+  },
+  "devDependencies": {
+    "@wdio/cli": "8.40.6",
+    "@wdio/local-runner": "8.40.6",
+    "@wdio/mocha-framework": "8.40.6",
+    "@wdio/spec-reporter": "8.40.6",
+    "@wdio/static-server-service": "8.40.6",
+    "webdriverio": "8.40.6"
+  }
+}
