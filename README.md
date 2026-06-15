@@ -64,7 +64,7 @@ npx wdio run wdio.conf.js --spec test/specs/game.spec.js
 
 ## Automated Coverage
 
-The suite contains **17 automated tests** across five spec files:
+The suite contains **22 automated tests** across five spec files:
 
 - Application shell smoke check
 - Registration, validation, duplicate user, logout, and login
